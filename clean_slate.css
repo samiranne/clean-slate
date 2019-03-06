@@ -1,0 +1,36 @@
+/* Hide sponsored posts & ads */ 
+.standalone-ad-container {
+    display: none;
+}
+.sidebar-ad {
+    display: none;
+}
+
+/* Hide other users' posts */ 
+.not_mine {
+    display: none;
+}
+
+/* Hide like/reblog notifications in feed */ 
+.notification {
+    display: none;
+}
+
+/* Hide radar sidebar */
+.radar_header {
+    display: none;
+}
+.radar_footer {
+    display: none;
+}
+.radar {
+    display: none;
+}
+
+/* Hide follow list & explore all of tumblr */
+.follow_list {
+    display: none;
+}
+.explore_link {
+    display: none;
+}

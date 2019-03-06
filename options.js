@@ -17,7 +17,7 @@ dashboardSettings = [
 
 function initializeDashboardSetting(settingName) {
   chrome.storage.sync.get(settingName, function(data) {
-    var checkbox = document.getElementById(settingName);
+    let checkbox = document.getElementById(settingName);
     checkbox.checked = data[settingName];
     checkbox.addEventListener('change', function() {
       if (this.checked) {
