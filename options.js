@@ -4,7 +4,6 @@ colorThemes = {
   'blue': '#066',
   'green': '#174',
   'purple': '#603',
-  'white': '#FFF'
 }
 
 dashboardSettings = [
