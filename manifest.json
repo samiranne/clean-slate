@@ -10,10 +10,10 @@
 	"browser_action": {
 		"default_popup": "options.html",
 		"default_icon": {
-			"16": "images/get_started16.png",
-			"32": "images/get_started32.png",
-			"48": "images/get_started48.png",
-			"128": "images/get_started128.png"
+			"16": "images/clean-slate-logo-16.png",
+			"32": "images/clean-slate-logo-32.png",
+			"48": "images/clean-slate-logo-48.png",
+			"128": "images/clean-slate-logo-128.png"
 		}
 	},
 	"content_scripts": [
@@ -29,10 +29,10 @@
 		}
 	],
 	"icons": {
-	  "16": "images/get_started16.png",
-	  "32": "images/get_started32.png",
-	  "48": "images/get_started48.png",
-	  "128": "images/get_started128.png"
+	  "16": "images/clean-slate-logo-16.png",
+	  "32": "images/clean-slate-logo-32.png",
+	  "48": "images/clean-slate-logo-48.png",
+	  "128": "images/clean-slate-logo-128.png"
 	},
 	"options_page": "options.html",
 	"manifest_version": 2
