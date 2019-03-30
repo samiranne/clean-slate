@@ -31,6 +31,6 @@
 .follow_list {
     display: none;
 }
-.explore_link {
+.sidebar_link.explore_link {
     display: none;
 }

@@ -77,7 +77,7 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
     for (var key in changes) {
       if (key == "theme_color") {
       	var storageChange = changes[key];
-      	newBackgroundColor = storageChange.newValue;
+      	let newBackgroundColor = storageChange.newValue;
       	let styleElement = document.getElementById("clean-slate-style");
       	updateThemeColor(styleElement, newBackgroundColor);
        }

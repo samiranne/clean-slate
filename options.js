@@ -7,7 +7,7 @@ colorThemes = {
 }
 
 dashboardSettings = [
-  'hide_posts',
+  'hide_posts', 
   'hide_ads',
   'hide_feed_notifications',
   'hide_radar_sidebar',
