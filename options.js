@@ -39,7 +39,7 @@ function constructColorOptions(colorThemes) {
       buttonContainer.classList.add('color-selector')
       let button = document.createElement('button');
       button.style.backgroundColor = color_value;
-      button.addEventListener('click', function() {
+      buttonContainer.addEventListener('click', function() {
       chrome.storage.sync.set({theme_color: color_value}, function() {
         console.log('Theme color set to ' + color_name + ' ' + color_value);
         });
